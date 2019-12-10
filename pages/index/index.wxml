@@ -1,0 +1,20 @@
+<!--pages/index/index.wxml-->
+
+<swiper indicator-dots='true' autoplay='true' interval='4000'>
+    <swiper-item>
+      <image src='/image/one.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/image/two.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/image/three.jpg'></image>
+    </swiper-item>
+  </swiper>
+<view class="pro-container">
+
+</view>
+
+<view class="class-container">
+
+</view>

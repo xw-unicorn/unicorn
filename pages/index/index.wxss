@@ -1,0 +1,11 @@
+/* pages/index/index.wxss */
+.pro-container{
+  height: 150rpx;
+  width: 100%;
+  border: 1rpx solid #ddd
+}
+.class-container{
+  height: 300rpx;
+  width: 100%;
+  border: 1rpx solid #ddd
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+  
+    "pages/product/product"
+    
+  ],
+  "tabBar": {
+    "color":"#bfbfbf",
+    "backgroundColor": "#fbfcfc",
+    "selectedColor": "#3bd6a1",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icon/reply-1.png",
+        "selectedIconPath": "/icon/reply.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "/icon/List-1.png",
+        "selectedIconPath": "/icon/List.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/icon/user-1.png",
+        "selectedIconPath": "/icon/user.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0dbf8c",
+    "navigationBarTitleText": "xxxx",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
