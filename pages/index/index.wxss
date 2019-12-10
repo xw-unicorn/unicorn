@@ -9,3 +9,25 @@
   width: 100%;
   border: 1rpx solid #ddd
 }
+/*scorll*/
+.item{
+  display: inline-block;
+
+  height: 300rpx;
+  /* border: 1rpx solid red; */
+  border-radius: 10%;
+  width: 50%;
+  margin-right: 10rpx;
+  box-shadow: 20rpx 20rpx 20rpx gainsboro;
+}
+.item-top{
+  /* display: inline-block; */
+  height: 60%;
+  width: 100%;
+  border: 1rpx solid greenyellow;
+}
+.item-bottom{
+  height: 40%;
+  width: 100%;
+  border: 1rpx solid rgb(0, 174, 255);
+}
