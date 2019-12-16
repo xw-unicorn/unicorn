@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/index/template/template",
     "pages/user/user",
   
     "pages/product/product"
