@@ -1,3 +1,4 @@
+
 <!--pages/index/index.wxml-->
 
 <swiper indicator-dots='true' autoplay='true' interval='4000'>
@@ -60,6 +61,3 @@
   <!-- </view> -->
 
 </scroll-view>
-<!-- <view class="class-container">
-
-</view> -->
