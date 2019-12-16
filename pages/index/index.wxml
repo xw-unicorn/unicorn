@@ -1,20 +1,65 @@
 <!--pages/index/index.wxml-->
 
 <swiper indicator-dots='true' autoplay='true' interval='4000'>
-    <swiper-item>
-      <image src='/image/one.jpg'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='/image/two.jpg'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='/image/three.jpg'></image>
-    </swiper-item>
-  </swiper>
+  <swiper-item>
+    <image src='/image/one.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/image/two.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/image/three.jpg'></image>
+  </swiper-item>
+</swiper>
 <view class="pro-container">
 
 </view>
 
-<view class="class-container">
+<scroll-view scroll-x="true" class="class-container flex-row" enable-flex="true">
+  <!-- <view class="flex-row"> -->
+    <view class="class-item">
+      <image src="/image/cat.png" mode='widthFix' ></image>
+      <view class="text-container">
+        <text class="class-title">初升高语文衔接课（通用版）</text>
+        <view class="flex-row">
+          <text class="text-s">共27讲</text>
+          <text class="text-s">2.72万次浏览</text>
+        </view>
+      </view>
+    </view>
+    <view class="class-item">
+      <image src="/image/cat.png" mode='widthFix' ></image>
+      <view class="text-container">
+        <text class="class-title">初升高语文衔接课（通用版）</text>
+        <view class="flex-row">
+          <text class="text-s">共27讲</text>
+          <text class="text-s">2.72万次浏览</text>
+        </view>
+      </view>
+    </view>
+    <view class="class-item">
+      <image src="/image/cat.png" mode='widthFix' ></image>
+      <view class="text-container">
+        <text class="class-title">初升高语文衔接课（通用版）</text>
+        <view class="flex-row">
+          <text class="text-s">共27讲</text>
+          <text class="text-s">2.72万次浏览</text>
+        </view>
+      </view>
+    </view>
+    <view class="class-item">
+      <image src="/image/cat.png" mode='widthFix' ></image>
+      <view class="text-container">
+        <text class="class-title">初升高语文衔接课（通用版）</text>
+        <view class="flex-row">
+          <text class="text-s">共27讲</text>
+          <text class="text-s">2.72万次浏览</text>
+        </view>
+      </view>
+    </view>
+  <!-- </view> -->
 
-</view>
+</scroll-view>
+<!-- <view class="class-container">
+
+</view> -->
