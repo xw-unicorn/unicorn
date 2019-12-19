@@ -1,4 +1,6 @@
 // pages/index/index.js
+var scrollData = require('../../data/information.js');
+
 Page({
 
   /**
@@ -11,8 +13,13 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  
   onLoad: function (options) {
-
+  
+    this.setData({
+      classData:scrollData.Class_database
+    })
+    console.log(this.data.classData);
   },
 
   /**

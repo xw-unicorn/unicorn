@@ -1,0 +1,12 @@
+<template name="scrollTemplate">
+  <view class="class-item">
+      <image src="/image/cat.png" mode='widthFix' ></image>
+      <view class="text-container">
+        <text class="class-title">{{class_name}}</text>
+        <view class="flex-row">
+          <text class="text-s">共{{total}}讲</text>
+          <text class="text-s">{{view}}万次浏览</text>
+        </view>
+      </view>
+  </view>
+</template>

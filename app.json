@@ -1,9 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/index/template/template",
+    "pages/index/index",   
+    "pages/index/class-template/class-template",
     "pages/user/user",
-  
     "pages/product/product"
     
   ],

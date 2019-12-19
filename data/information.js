@@ -26,5 +26,5 @@ var class_database=[
 
 ]
 module.exports = {
-  class_database: class_database
+  Class_database: class_database
 }

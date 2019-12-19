@@ -1,6 +1,5 @@
-
 <!--pages/index/index.wxml-->
-
+<import src="class-template/class-template.wxml" />
 <swiper indicator-dots='true' autoplay='true' interval='4000'>
   <swiper-item>
     <image src='/image/one.jpg'></image>
@@ -16,53 +15,10 @@
 
 </view>
 
-<view class="class-container">
 
-</view>
-
-
-<scroll-view scroll-x="true" class="class-container flex-row" enable-flex="true">
-  <!-- <view class="flex-row"> -->
-    <view class="class-item">
-      <image src="/image/cat.png" mode='widthFix' ></image>
-      <view class="text-container">
-        <text class="class-title">初升高语文衔接课（通用版）</text>
-        <view class="flex-row">
-          <text class="text-s">共27讲</text>
-          <text class="text-s">2.72万次浏览</text>
-        </view>
-      </view>
-    </view>
-    <view class="class-item">
-      <image src="/image/cat.png" mode='widthFix' ></image>
-      <view class="text-container">
-        <text class="class-title">初升高语文衔接课（通用版）</text>
-        <view class="flex-row">
-          <text class="text-s">共27讲</text>
-          <text class="text-s">2.72万次浏览</text>
-        </view>
-      </view>
-    </view>
-    <view class="class-item">
-      <image src="/image/cat.png" mode='widthFix' ></image>
-      <view class="text-container">
-        <text class="class-title">初升高语文衔接课（通用版）</text>
-        <view class="flex-row">
-          <text class="text-s">共27讲</text>
-          <text class="text-s">2.72万次浏览</text>
-        </view>
-      </view>
-    </view>
-    <view class="class-item">
-      <image src="/image/cat.png" mode='widthFix' ></image>
-      <view class="text-container">
-        <text class="class-title">初升高语文衔接课（通用版）</text>
-        <view class="flex-row">
-          <text class="text-s">共27讲</text>
-          <text class="text-s">2.72万次浏览</text>
-        </view>
-      </view>
-    </view>
-  <!-- </view> -->
-
+<scroll-view scroll-x="true" class="class-container flex-row" enable-flex="true" >
+  <block wx:for="{{classData}}" wx:for-item="item">
+    <template is="scrollTemplate" data="{{...item}}" />
+    <!--is后面是模板名-->
+  </block>
 </scroll-view>

@@ -1,4 +1,4 @@
-// pages/index/template/template.js
+// pages/index/class-template/class-template.js
 Page({
 
   /**
