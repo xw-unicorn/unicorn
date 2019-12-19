@@ -4,7 +4,7 @@
     "pages/index/class-template/class-template",
     "pages/user/user",
     "pages/product/product"
-    
+
   ],
   "tabBar": {
     "color":"#bfbfbf",

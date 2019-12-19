@@ -1,9 +1,12 @@
-
+page{
+    background: #fafafa
+}
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #0dbf8c */
+  background-color: #0dbf8c;
+  width: 100%
 }
 
 .userinfo-avatar {
@@ -14,5 +17,31 @@
 }
 
 .userinfo-nickname {
-  color: #ccc;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 100rpx
+}
+
+.user-setting{
+  width: 70%;
+  border-radius: 25rpx;
+  padding: 15rpx 50rpx;
+  background:#fff;
+  margin-top: -50rpx
+}
+
+.user-setting image{
+  width: 80rpx;
+  height: 80rpx
+}
+.info-item{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+  padding: 10px 0;
+
+}
+.info-item text{
+  margin-left: 45rpx;
+  color:#787878
 }
