@@ -1,14 +1,15 @@
+
 <!--pages/index/index.wxml-->
 <import src="class-template/class-template.wxml" />
 <swiper indicator-dots='true' autoplay='true' interval='4000'>
   <swiper-item>
-    <image src='/image/one.jpg'></image>
+    <image src='https://wx2.sinaimg.cn/mw1024/005GsDxegy1fvlww4zuqcj31hc0xcb29.jpg'></image>
   </swiper-item>
   <swiper-item>
-    <image src='/image/two.jpg'></image>
+    <image src='https://wx4.sinaimg.cn/mw1024/005GsDxegy1fvlww46eh9j31hc0xcb29.jpg'></image>
   </swiper-item>
   <swiper-item>
-    <image src='/image/three.jpg'></image>
+    <image src='https://wx3.sinaimg.cn/mw1024/005GsDxegy1fvlww3rt58j31hc0u0td4.jpg'></image>
   </swiper-item>
 </swiper>
 <view class="pro-container">

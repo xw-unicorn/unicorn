@@ -1,3 +1,5 @@
+
+
 {
 	"description": "项目配置文件",
 	"packOptions": {
@@ -16,7 +18,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
-	"appid": "wxdc60ce0cbe6d35b0",
+	"appid": "wx12c64dd9477fb11f",
 	"projectname": "StudyDemo",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -42,4 +44,5 @@
 			"list": []
 		}
 	}
+
 }
