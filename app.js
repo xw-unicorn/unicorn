@@ -5,12 +5,32 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
+    var that = this;
     // 登录
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+  if(res.code){
+    var that_ = that;
+    wx.request({
+      url: 'https://api.weixin.qq.com/sns/jscode2session',
+      data: {
+        //小程序唯一标识
+        appid: 'wx12c64dd9477fb11f',
+        //小程序的 app secret
+        secret: 'd5de40b91a7fe95f5bac91f07cf2bc0f',
+        grant_type: 'authorization_code',
+        js_code: res.code
+      },
+      method: 'GET',
+      header: { 'content-type': 'application/json' },
+      success: function (openIdRes) {
 
+        that_.globalData.openid = openIdRes.data.openid;
+        console.log(openIdRes);
+      }
+    })
+  }
 
         // "appid": "wx12c64dd9477fb11f",
       }
