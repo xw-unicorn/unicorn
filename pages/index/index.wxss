@@ -2,7 +2,7 @@
 @import "/pages/index/class-template/class-template.wxss";
 
 .pro-container {
-  height: 150rpx;
+  height: 490rpx;
   width: 100%;
   border: 1rpx solid #ddd;
 }

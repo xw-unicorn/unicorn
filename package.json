@@ -1,0 +1,24 @@
+{
+  "name": "unicorn",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xw-unicorn/unicorn.git"
+  },
+  "author": "xw alin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xw-unicorn/unicorn/issues"
+  },
+  "homepage": "https://github.com/xw-unicorn/unicorn#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.0.1",
+    "miniprogram-sm-crypto": "^0.1.0",
+    "vant-weapp": "^0.5.27"
+  }
+}

@@ -1,6 +1,6 @@
 <template name="scrollTemplate">
   <view class="class-item">
-      <image src="/image/cat.png" mode='widthFix' ></image>
+      <image src="https://wx1.sinaimg.cn/mw690/007qTlwRgy1ga8av8hngmj305k05ka9w.jpg" mode='widthFix' ></image>
       <view class="text-container">
         <text class="class-title">{{class_name}}</text>
         <view class="flex-row">
