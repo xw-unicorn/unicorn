@@ -17,7 +17,7 @@ App({
       url: 'https://api.weixin.qq.com/sns/jscode2session',
       data: {
         //小程序唯一标识
-        appid: 'wx12c64dd9477fb11f',
+        appid: 'wxdc60ce0cbe6d35b0',
         //小程序的 app secret
         secret: 'd5de40b91a7fe95f5bac91f07cf2bc0f',
         grant_type: 'authorization_code',
@@ -32,7 +32,7 @@ App({
       }
     })
   }
-
+        //"alin appid":"wxdc60ce0cbe6d35b0"
         // "appid": "wx12c64dd9477fb11f",
       }
     })

@@ -23,7 +23,7 @@
 
 .text-xs{
   color: #bbb;
-  font-size: 20rpx
+  font-size: 24rpx
 }
 .text-s{
   color: #bbb;

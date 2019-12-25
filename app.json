@@ -1,9 +1,11 @@
 {
   "pages": [
+  "pages/user/user",
+    "pages/index/index",
     "pages/product/product",
-    "pages/index/index",   
-    "pages/index/class-template/class-template",
-    "pages/user/user"
+   
+    "pages/index/class-template/class-template"
+   
     
 
   ],

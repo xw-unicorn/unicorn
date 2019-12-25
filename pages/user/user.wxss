@@ -31,8 +31,8 @@ page{
 }
 
 .user-setting image{
-  width: 80rpx;
-  height: 80rpx
+  width: 70rpx;
+  height: 70rpx
 }
 .info-item{
       display: flex;

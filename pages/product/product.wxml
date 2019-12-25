@@ -1,7 +1,7 @@
 <!--pages/product/product.wxml-->
 <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
 <view class='panel-container'>
-<image src="https://wx4.sinaimg.cn/mw1024/005GsDxegy1ga86vcvlfvj314q08cq3p.jpg" class='panel'></image>
+<image src="https://wx4.sinaimg.cn/mw1024/005GsDxegy1ga86vcvlfvj314q08cq3p.jpg"></image>
 <view class='panel'>
     <van-panel title="生涯规划" >
         <view class='item flex-row'>

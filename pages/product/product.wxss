@@ -6,7 +6,8 @@ page {
 .panel-container>image{
   height: 200rpx;
 display: block;
-width: 100%
+width: 100%;
+border-radius: 10rpx
 }
 
 

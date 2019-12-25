@@ -13,9 +13,14 @@
 
   </swiper-item>
 </swiper>
-<view class="pro-container">
 
-</view>
+<!-- 第二层 -->
+<van-grid gutter="10">
+  <van-grid-item icon="https://wx1.sinaimg.cn/mw690/007qTlwRgy1ga8abqqbhgj305k05kaa2.jpg" text="查大学"    style="border-radius:100rpx"/>
+  <van-grid-item icon="https://wx2.sinaimg.cn/mw690/007qTlwRgy1ga8abqk1mcj305k05kwek.jpg" text="查专业" />
+  <van-grid-item icon="https://wx2.sinaimg.cn/mw690/007qTlwRgy1ga8abql9lvj305k05k3yi.jpg" text="政策解读" />
+  <van-grid-item icon="https://wx1.sinaimg.cn/mw690/007qTlwRgy1ga8abql1n0j305k05k74b.jpg" text="生涯规划" />
+</van-grid>
 
 
 <scroll-view scroll-x="true" class="class-container flex-row" enable-flex="true" >

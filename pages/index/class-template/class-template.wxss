@@ -1,12 +1,11 @@
 .class-item{
 margin: 0 30rpx;
 background-color: #fff;
-width: 250rpx;
 border-radius: 30rpx;
 margin-top: 30rpx
 }
 .class-item image{
-  width: 250rpx;
+  width: 280rpx;
   border-top-left-radius: 30rpx;
   border-top-right-radius: 30rpx;
  
@@ -17,10 +16,12 @@ font-weight: 600;
 font-size: 32rpx;
 word-wrap: break-word;
 word-break: break-all;
-
 }
 
-.text-s{
+.text-xs{
   margin-top: 25rpx
+}
 
+.text-container {
+  padding: 30rpx 20rpx;
 }
