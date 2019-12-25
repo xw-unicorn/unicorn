@@ -1,2 +1,36 @@
 <!--pages/product/product.wxml-->
-<text>pages/product/product.wxml</text>
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+<view class='panel-container'>
+<image src="https://wx4.sinaimg.cn/mw1024/005GsDxegy1ga86vcvlfvj314q08cq3p.jpg" class='panel'></image>
+<view class='panel'>
+    <van-panel title="生涯规划" >
+        <view class='item flex-row'>
+            <view class='flex-column'>
+              <text class='text-m'>如何规划你的生涯</text>
+              <text class='text-s'>共16讲    浏览8006</text>
+            </view>
+            <view>
+              <image src='https://wx4.sinaimg.cn/mw1024/005GsDxegy1ga86jcl1o1j30rs0q8doi.jpg'></image>
+            </view>
+        </view>
+        <view class='item flex-row'>
+            <view class='flex-column'>
+              <text class='text-m'>学长学姐说专业</text>
+              <text class='text-s'>共16讲    浏览8006</text>
+            </view>
+            <view>
+              <image src='https://wx4.sinaimg.cn/mw1024/005GsDxegy1ga86jc4cc4j30rs0po0uj.jpg'></image>
+            </view>
+        </view>
+        <view class='item flex-row'>
+            <view class='flex-column'>
+              <text class='text-m'>学科畅游</text>
+              <text class='text-s'>共16讲    浏览8006</text>
+            </view>
+            <view>
+              <image src='https://wx4.sinaimg.cn/mw1024/005GsDxegy1ga86jc4ggoj30rs0ps766.jpg'></image>
+            </view>
+        </view>
+    </van-panel>
+</view>
+</view>

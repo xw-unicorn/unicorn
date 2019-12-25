@@ -21,7 +21,20 @@
     align-items: center;
 }
 
-.text-s{
+.text-xs{
   color: #bbb;
   font-size: 20rpx
+}
+.text-s{
+  color: #bbb;
+  font-size: 30rpx
+}
+
+.text-m{
+  color: #515151;
+  font-size: 36rpx
+}
+.panel{
+  border-radius: 25rpx;
+  margin-bottom: 20rpx
 }

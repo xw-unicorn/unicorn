@@ -1,20 +1,15 @@
 /* pages/index/index.wxss */
 @import "/pages/index/class-template/class-template.wxss";
 
-.pro-container {
-  height: 150rpx;
-  width: 100%;
-  border: 1rpx solid #ddd;
-}
+
 
 page {
-  background: #fafafa;
+  background: #f7f7f7;
 }
 
 .pro-container {
   height: 150rpx;
   width: 100%;
-  border: 1rpx solid #ddd;
 }
 
 .text-container {
